@@ -1,0 +1,16 @@
+{
+  "agent_id": "6aa24825697f29fa833b5fcf",
+  "agent_name": "GreenLedger - ESG & Carbon Accounting Copilot",
+  "platform": "Lyzr + E2B Code Interpreter",
+  "api_endpoint": "https://agent-prod.studio.lyzr.ai/v3/inference/chat/",
+  "problem_statement": "PS-01 ClimateTech",
+  "architecture": [
+    "01 Document Ingestion - invoices ERP",
+    "02 Scope Categorization - Scope 1/2/3 GHG Protocol",
+    "03 Emission Factor Matching - EPA 2.68, CEA India 0.82",
+    "04 Deterministic Math via E2B - no LLM hallucination",
+    "05 Disclosure - CSRD/SEC audit-ready"
+  ],
+  "demo_calculation": "500L diesel * 2.68 + 100kWh * 0.82 = 1422 kgCO2e",
+  "anti_greenwashing": true
+}
