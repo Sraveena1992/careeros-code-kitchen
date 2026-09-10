@@ -1,0 +1,10 @@
+{
+  "name": "GreenLedger ESG Copilot",
+  "agents": [
+    {"name": "Ingestion Agent", "task": "Parse bills, invoices, ERP"},
+    {"name": "Scope Categorizer", "task": "Classify Scope 1/2/3"},
+    {"name": "Emission Matcher", "task": "Bind EPA eGRID factor"},
+    {"name": "Calculator", "task": "tCO2e = Qty * Factor / 1000"},
+    {"name": "Reporter", "task": "CSRD/SEC audit report"}
+  ]
+}
