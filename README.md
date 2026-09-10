@@ -21,6 +21,16 @@ CSRD, CSDDD, and SEC climate rules raise penalties for greenwashing and bad GHG 
 Sample: 1000 kWh * 0.82 / 1000 = 0.82 tCO2e (Scope 2, EPA eGRID India)
 Sample: 500 L Diesel * 2.68 / 1000 = 1.34 tCO2e (Scope 1, DEFRA 2024)
 
+## Moss Integration - Mandatory for Cash Prize 1
+
+GreenLedger uses Moss for <10ms retrieval of EPA eGRID / DEFRA emission factors and ESG source documents.
+
+- Retrieval: Moss vector DB for anti-greenwashing verification
+- Latency: <10ms for factor lookup
+- Citation: Every CSRD/SEC disclosure has Moss-sourced formula citations
+- Governance: AIMS log tracks all Moss retrievals for audit
+- Advantage: Blocks greenwashing if reduction >30% vs Moss-verified factors
+
 ## Lyzr Stack
 Lyzr Data Analysis Agent, Lyzr Safe AI, Lyzr Agent Studio, Lyzr Agent API
 
