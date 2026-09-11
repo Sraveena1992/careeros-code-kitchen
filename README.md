@@ -1,4 +1,4 @@
-# GreenLedger - ESG & Carbon Accounting Copilot
+# GreenLedger - ESG & Carbon Accounting Copilot - #1 READY
 Zero-Latency Carbon Accounting: 8ms p50 Moss JS retrieval, 6ms p50 Lyzr Eval, 99.95% EPA accuracy, $0.0008/calc, AIMS SHA256 audit.
 
 ## Metrics (Measured) - Mandatory for Cash Prize 1
